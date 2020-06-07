@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+:root{
+  --backgroundBase: #619E9E;
+  --backgroundDark:#406969;
+}
+* {
+  margin: 0 auto;
+  padding: 0 ;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+body {
+  padding: 5vmin;
+  justify-content: center;
+  align-items: center;
+  background-color:#333;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+  text-align: center;
+  line-height: 1;
+}
+
+
+html {
+  transition: height 1s;
+}
+
+i{
+  font-size:2.0em;
+  margin-right: 1em;
+}
+
+
+.box {
+  background-color: var(--backgroundDark);
+  box-shadow: 1px 1px 10px 2px var(--backgroundDark);
+  border: 1px solid var(--backgroundDark);
+  transition: border 0.5s ease-in-out;
+  min-height: 10vh;
+  border-radius:3px;
+  position:relative;
+  margin:1% auto auto auto;
+  max-width:50vw;
+  padding:20px 50px;
+  display:table;
+ 
+}
+.h1{
+  float: left;
+  color:#fff;  
+  font-family: 'Open Sans', sans-serif;
+  font-size: 7vmin;
+}
+.hr-match {
+	display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+.hr-match:after {
+  content: "";
+  display: block;
+  margin-top: 0.2em;
+}
+
+
+.footer {
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+}
+a {
+  font-weight:500;
+  text-decoration:none;
+  color:#fff;
+}
+.editorWrap {
+
+  margin: 18px auto;
+}
+textarea {
+  min-width:75%;
+
+  background-color: var(--backgroundBase);
+  box-shadow: 1px 1px 10px 2px var(--backgroundBase);
+  border: 1px solid var(--backgroundBase);
+  min-height: 200px;
+  margin-top: 50px;
+  margin-bottom: -5px;
+  margin-right: 15px;
+  resize: vertical;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+  color: aliceblue;
+}
+
+
